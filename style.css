@@ -1,0 +1,93 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.grid-container-1,
+.grid-container-2 {
+    display: grid;
+    align-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.grid-container-1 {
+
+    padding-bottom: 45px;
+    padding-top: 50px;
+    grid-template-columns: 200px auto 200px;
+    border-bottom: #0E6655 solid 2px;
+
+}
+
+.grid-container-2 {
+    grid-template-columns: auto;
+
+}
+
+
+.title h1 {
+
+    font-weight: bolder;
+    font-size: 30px;
+    color: #0E6655;
+
+}
+
+div.input,
+div.button {
+    padding-top: 20px;
+}
+
+div.input input,
+div.button input {
+
+    font-size: larger;
+}
+
+div.input input {
+    width: 80%;
+    height: 45px;
+    background-color: rgb(235, 247, 244);
+    border: solid #0E6251 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.button input {
+    width: 100%;
+    height: 49px;
+    background-color: #0E6251;
+    color: white;
+    border: none;
+    font-weight: lighter;
+}
+
+.search-results h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.search-results table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.search-results table td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.search-results table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.search-results table td.high {
+    color: green;
+}
+
+.search-results table td.low {
+    color: red;
+}

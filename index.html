@@ -1,16 +1,36 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <meta charset="UTF-8" />
+    <title>City Hunter</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+    <div class="grid-container-1">
+        <div class="title">
+            <h1>City-Info</h1>
+        </div>
+        <div class="input">
+            <input type="text" name="search" placeholder="City or State" onkeyup="search(this)" />
+        </div>
 
-    <script src="./app.js" type="text/javascript"></script>
+    </div>
+
+    <div class="grid-container-2">
+        <div class="search-results">
+            <h5>Search results</h5>
+            <table style="width:100%" id="searchTable">
+
+            </table>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
